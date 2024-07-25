@@ -1,0 +1,25 @@
+@keyframes title-center-anim {
+  0% {
+    justify-content: flex-end;
+  }
+  100% {
+    justify-content: center;
+  }
+}
+
+@keyframes title-right-anim {
+  0% {
+    justify-content: center;
+  }
+  100% {
+    justify-content: flex-end;
+  }
+}
+
+.title-center {
+  animation: title-center-anim 0.5s ease forwards;
+}
+
+.title-right {
+  animation: title-right-anim 0.5s ease forwards;
+}

@@ -1,0 +1,41 @@
+@keyframes startAnim {
+  0% {
+    top: -100vh;
+    scale: 0.1;
+    opacity: 0.2;
+    border-radius: 20rem;
+  }
+  50% {
+    top: 0vh;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+    border-radius: 0rem;
+  }
+}
+
+@keyframes endAnim {
+  0% {
+    scale: 1;
+    opacity: 1;
+    border-radius: 0rem;
+  }
+  50% {
+    top: 0vh;
+  }
+  100% {
+    top: -100vh;
+    scale: 0.1;
+    opacity: 0.2;
+    border-radius: 20rem;
+  }
+}
+
+.form-pop-up-start-anim {
+  animation: startAnim 0.5s ease-in-out forwards;
+}
+
+.form-pop-up-end-anim {
+  animation: endAnim 0.5s ease-in-out forwards;
+}
