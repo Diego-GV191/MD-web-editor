@@ -10,5 +10,5 @@ export default defineConfig({
       '@renderer': path.resolve(__dirname, './src/'),
     },
   },
-  base: 'https://Diego-GV191.github.io/',
+  base: 'https://Diego-GV191.github.io/MD-web-editor/',
 })
